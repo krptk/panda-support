@@ -1,0 +1,18 @@
+@font-face{font-family:"EB Garamond";src:url("EBGaramond.ttf") format("truetype");font-weight:400 800;font-style:normal;font-display:swap}
+:root{color-scheme:light;font-family:"EB Garamond",Garamond,"Times New Roman",serif;color:#000;background:#fff}
+*{box-sizing:border-box}
+body{margin:0}
+header{background:#000;color:#fff;padding:18px 24px;text-align:center;font-size:32px;line-height:1.3}
+header a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;text-decoration:none}
+main{max-width:728px;margin:auto;padding:48px 24px 80px;font-size:20px;line-height:1.55;overflow-wrap:anywhere}
+h1{font-size:40px;line-height:1.15;font-weight:400;margin:0 0 24px}
+h2{font-size:26px;line-height:1.3;margin-top:36px}
+a{color:inherit;text-underline-offset:4px}
+a:focus-visible{outline:2px solid;outline-offset:4px}
+.home{padding-top:72px}
+.home h1{font-size:52px;margin-bottom:12px}
+.subtitle{font-size:26px;margin:0 0 36px}
+.page-links{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:44px}
+.page-links a{min-height:44px;display:flex;align-items:center}
+footer{margin-top:48px;font-size:17px}
+footer a{display:inline-flex;align-items:center;min-height:44px;margin-right:20px}
